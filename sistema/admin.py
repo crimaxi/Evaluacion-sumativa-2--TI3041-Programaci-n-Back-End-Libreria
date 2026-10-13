@@ -10,6 +10,7 @@ def _formatear_pesos(monto):
 @admin.register(Editorial)
 class EditorialAdmin(admin.ModelAdmin):
 	list_display = ('nombre', 'pais', 'ciudad', 'presupuesto_en_pesos')
+	list_filter = ('pais',)
 	search_fields = ('nombre', 'pais', 'ciudad')
 
 	@admin.display(description='Presupuesto (CLP)')
