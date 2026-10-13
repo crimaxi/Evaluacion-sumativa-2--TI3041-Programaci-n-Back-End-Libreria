@@ -1,0 +1,12 @@
+# Resumen de prompts y estado del proyecto
+
+## Solicitudes realizadas
+
+Herramienta usada: github copilot
+
+- revisar el proyecto Django Libreria y su panel de administracion.
+- Corregir errores al crear el superusuario: sintaxis incorrecta en `settings.py` y migraciones de autenticacion pendientes.
+- revisar nombres legibles, campos de datos y montos en pesos para ambas entidades.
+- Revisar el repositorio, commits, dependencias, base de datos y criterios de evaluacion.
+
+
